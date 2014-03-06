@@ -36,6 +36,10 @@ var options = {
 var href = Mailto.url(recepient, options);
 ```
 
+This will generate the appropriate mailto string:
+
+	mailto:stefan%40dontgohere.com?cc=cc.this.person%40dontgohere.com&bcc=bcc.this.person%40dontgohere.com&subject=Angular-mailto%20Email&body=Hi%20Stefan%2C%0AThis%20is%20an%20email%20pre-populated%20from%20angular-mailto.
+
 you can then use this inside an `<a>` tag:
 
 ```html
