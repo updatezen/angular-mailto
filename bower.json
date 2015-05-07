@@ -7,7 +7,7 @@
 	"homepage": "https://github.com/updatezen/angular-mailto",
 	"main": "./angular-mailto.js",
 	"dependencies": {
-		"angular": ">=1.0.0 <1.3.0"
+		"angular": ">=1.0.0 <=1.3.0"
 	},
 	"repository": {
 		"type": "git",
